@@ -20,8 +20,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)] by  Clicking the link below 
-(https://dashboard.heroku.com/new?template=https://github.com/Tennormodz/Jewel?tab=readme-ov-file)_]
+_(https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/keithkeizzah/ALPHA-MD1&template=https://github.com/keithkeizzah/ALPHA-MD1.git)***
 # Install Manually 👇
 ## `Requirements`
 * [Node.js](https://nodejs.org/en/)
