@@ -8,7 +8,7 @@
 </p>
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/Tennormodz/Jewel/fork)
+- FORK THE REPOSITORY [Here](https://github.com/Tennormodz/Vampire-Md/fork)
 
 ## `Generate Pair Code For Session`
 [![Jewel](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Xeon-PairCode)
@@ -30,7 +30,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/Tennormodz/Jewel.git
+git clone https://github.com/Tennormodz/Vampire-Md.git
 cd Jewel
 
 npm start
@@ -47,8 +47,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Tennormodz/Jewel
-cd Jewel bot
+git clone https://github.com/Tennormodz/Vampire-Md
 yarn install
 npm start
 ```
@@ -60,8 +59,7 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagemagick
 apt install bash
-git clone https://github.com/Tennormodz/Jewel
-cd jewel bot
+git clone https://github.com/Tennormodz/Vampire-md 
 npm start
 ```
 ## `For 24/7 Activation (Termux)`
