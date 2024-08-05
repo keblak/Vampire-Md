@@ -23,12 +23,12 @@ global.location = '1' //Ganti Pake Location Panel Lu
 //===========================//
 
 global.prefa = ['','!','.',',','🐤','🗿']
-global.owner = ['254778152838']
-global.ownMain = '254778152838'
+global.owner = ['254703726139']
+global.ownMain = '254703726139'
 global.NamaOwner = ' ⁂𝙠𝙤𝙣𝙠𝙮⁂' //gausah diganti 
 global.sessionName = 'ryokunsession'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = 'ZxV' //ganti aj klo mau
+global.namabot = 'Vampire' //ganti aj klo mau
 global.author = 'thezetsuboxygen' //ganti aj klo mau
 global.packname = 'ZxV' //ganti aj klo mau
 global.yt = 'https://youtube.com/@TheZetsuboXygen?si=O3wsyukL4Twe7kot' //gausah diganti
