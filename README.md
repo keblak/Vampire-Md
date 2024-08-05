@@ -68,4 +68,4 @@ npm start
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
-Note:My repo is not 🚫 allowed in any of other persons project 
+𝐍𝐨𝐭𝐞:𝐌𝐘  𝐑𝐄𝐏𝐎 𝐈𝐒 𝐍𝐎𝐓 🚫 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐈𝐍 𝐀𝐍𝐘 𝐎𝐓𝐇𝐄𝐑  𝐏𝐄𝐑𝐒𝐎𝐍𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 
