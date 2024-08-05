@@ -1,9 +1,9 @@
 /*
 > Kalo Mau Recode Kasih Credit gw ›
-⁂𝙠𝙤𝙣𝙠𝙮⁂ / Ryo
+円𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧円 / Ryo
 
-📝 | Created By  ⁂𝙠𝙤𝙣𝙠𝙮⁂ / Ryo
-🖥️ | Base Ori By   ⁂𝙠𝙤𝙣𝙠𝙮⁂ / Ryo
+📝 | Created By  円𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧円 / Ryo
+🖥️ | Base Ori By   円𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧円 / Ryo
 
 
 */
@@ -414,10 +414,10 @@ const setting = db.data.settings[botNumber]
 	    if (setting) {
 //    	    if (!('anticall' in setting)) setting.anticall = false
     		if (!isNumber(setting.status)) setting.status = 0
-    		if (!('autobio' in setting)) setting.autobio = false
+    		if (!('autobio' in setting)) setting.autobio = true
             if (!('autoread' in setting)) setting.autoread = false
             if (!('autoTyping' in setting)) setting.autoTyping = false
-            if (!('autoRecord' in setting)) setting.autoRecord = false
+            if (!('autoRecord' in setting)) setting.autoRecord = true
 //        if (!('goodbye' in setting)) chats.goodbye = setting.auto_leaveMsg
 //        if (!('welcome' in setting)) chats.welcome = setting.auto_welcomeMsg
        if (!('onlygrub' in setting)) setting.onlygrub = false
@@ -425,7 +425,7 @@ const setting = db.data.settings[botNumber]
 //    	  anticall: false,
     		status: 0,
     		stock:10,
-    		autobio: false,
+    		autobio: true,
     		autoTyping: false,
 //    		auto_ai_grup: true,
 //    		goodbye: true,
@@ -481,7 +481,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By :  ⁂𝙠𝙤𝙣𝙠𝙮⁂ || ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ Vampire Killer By :  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 || ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -670,7 +670,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 ZxV Client - Multi Device",
+    "name": "🌠 Vampire Killer- Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -771,7 +771,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` ZxV - Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` Vampire - Bug ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -867,7 +867,7 @@ message: {
 "jpegThumbnail": fakejpg,
 },
 "title": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"description": `⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
+"description": `ʋαɾɱριɾҽ ƙιʅʅҽɾ 々`,
 "currencyCode": "IDR",
 "priceAmount1000": "1000000000000000000",
 "retailerId": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
@@ -1105,7 +1105,7 @@ await sleep(1000)
 }
 }
 }
-//antilink youtube video by geekz and modified by  ⁂𝙠𝙤𝙣𝙠𝙮⁂
+//antilink youtube video by geekz and modified by  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧
 if (AntiLinkYoutubeVid)
 if (budy.toLowerCase().includes("youtu.be")){
 if (!isBotAdmins) return
@@ -1736,7 +1736,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ꦾ".repeat(60000),
+    "caption": `✳️𝙑𝙖𝙢𝙥𝙞𝙧𝙚 𝙆𝙞𝙡𝙚𝙧⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ꦾ".repeat(60000),
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -1759,7 +1759,7 @@ async function bakdok(target, kuwoted) {
     "fileLength": "999999999",
     "pageCount": 999999999,
     "mediaKey": "5c/W3BCWjPMFAUUxTSYtYPLWZGWuBV13mWOgQwNdFcg=",
-    "fileName": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ྦྷ".repeat(60000),
+    "fileName": `✳️᜴࿆͆᷍𝙑𝙖𝙢𝙥𝙞𝙧𝙚 𝙆𝙞𝙡𝙡𝙚𝙧⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ྦྷ".repeat(60000),
     "fileEncSha256": "pznYBS1N6gr9RZ66Fx7L3AyLIU2RY5LHCKhxXerJnwQ=",
     "directPath": "/v/t62.7119-24/40377567_1587482692048785_2833698759492825282_n.enc?ccb=11-4&oh=01_Q5AaIEOZFiVRPJrllJNvRA-D4JtOaEYtXl0gmSTFWkGxASLZ&oe=666DBE7C&_nc_sid=5e03e0",
     "mediaKeyTimestamp": "1715880173"
@@ -1814,9 +1814,9 @@ await ryozingod.relayMessage(target, etc.message, { participant: { jid: target }
 async function baklis(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々"+" ".repeat(920000),
-        'footerText': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
-        'description': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    'title': "⟠ 𝐙͢𝙑𝙖𝙢𝙥𝙞𝙧𝙚 𝙆𝙞𝙡𝙡𝙚𝙧 々"+" ".repeat(920000),
+        'footerText': `✳️᜴࿆͆᷍𝙑𝙖𝙢𝙥𝙞𝙧𝙚⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+        'description': `✳️᜴࿆͆᷍𝙑𝙖𝙢𝙥𝙞𝙧𝙚⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
         'buttonText': null,
         'listType': 2,
         'productListInfo': {
@@ -1912,37 +1912,37 @@ let penisbengkok = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
 ┏❐  ⌜  ⌟  ❐
-┃⭔ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
-┃⭔ Library : WS-Baileys
-┃⭔ Type : Case
-┃⭔ Status : Ready
-┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-┃⭔ User : ${Object.keys(db.data.users).length}
-┃⭔ Prefix : Single
+┃∰ Creator :  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧
+┃∰ Library : WS-Baileys
+┃∰ Type : Case
+┃∰Status : Ready
+┃∰ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+┃∰ User : ${Object.keys(db.data.users).length}
+┃∰ Prefix : Single
 ┗❐
 
- ⁂𝙠𝙤𝙣𝙠𝙮⁂ © Copyright`
+  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 © Copyright`
 
 let njing = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ 𝐒𝐀𝐕𝐀𝐆𝐄 𝐌𝐎𝐃𝐄  ⌟  ❐
-┃⭔ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
-┃⭔ Library : WS-Baileys
-┃⭔ Type : Case
-┃⭔ Status : Ready
-┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-┃⭔ User : ${Object.keys(db.data.users).length}
-┃⭔ Prefix : Single 
+┏❐  ⌜ ◉𝐕𝐀𝐌𝐏𝐈𝐑𝐄 𝐊𝐈𝐋𝐋𝐄𝐑◉  ⌟  ❐
+┃∭ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
+┃∭ Library : WS-Baileys
+┃∭ Type : Case
+┃∭ Status : Ready
+┃∭ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+┃∭ User : ${Object.keys(db.data.users).length}
+┃∭ Prefix : Single 
 ┗❐
 
-❐${prefix}spesialmenu
-❐${prefix}allmenu
-❐${prefix}changemenu button/non
-❐${prefix}owner
-❐${prefix}botstatus
+◉${prefix}spesialmenu
+◉${prefix}allmenu
+◉${prefix}changemenu button/non
+◉${prefix}owner
+◉${prefix}botstatus
 
- ⁂𝙠𝙤𝙣𝙠𝙮⁂ © Copyright`
+ 𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 © Copyright`
 
 //Button Menu
 let freesex = {
@@ -1954,7 +1954,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": 'By Vampire Bug Bot',
 "serverMessageId": 1
 },
 },
@@ -1967,13 +1967,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Vampire Killer ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "single_select",
-"buttonParamsJson": `{ "title": "⿻𝐙͢𝐱𝐕⿻", "sections": [{ "title": "# !-Choose One Of Them", "highlight_label": "🌏General Commands🗨️", "rows": [{ "header": "ALL COMMAND", "title": "Show All Command", "id": ".allmenu" }, { "header": "Owner", "title": "Displays Owner Number", "id": ".owner" }, { "header": "Bot Info", "title": "Displays Information About Bots", "id": ".botstatus" }] }, { "title": "🦠 SpeCiaL - ComManD ❌", "highlight_label": " #SpeCial ", "rows": [{ "header": "Special - Menu", "title": "displays all special commands", "id": ".spesialmenu" }] }] }`
+"buttonParamsJson": `{ "title": "⿻𝐙͢Vampire⿻", "sections": [{ "title": "# !-Choose One Of Them", "highlight_label": "🌏General Commands🗨️", "rows": [{ "header": "ALL COMMAND", "title": "Show All Command", "id": ".allmenu" }, { "header": "Owner", "title": "Displays Owner Number", "id": ".owner" }, { "header": "Bot Info", "title": "Displays Information About Bots", "id": ".botstatus" }] }, { "title": "🦠 SpeCiaL - ComManD ❌", "highlight_label": " #SpeCial ", "rows": [{ "header": "Special - Menu", "title": "displays all special commands", "id": ".spesialmenu" }] }] }`
 },
 {
 "name": "cta_url",
@@ -1991,7 +1991,7 @@ let kontollurus = {
 image: mengkece,
 caption: njing,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ 𝐙͢Vampire⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2015,42 +2015,42 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 let itsmenu = `
-┏❐  ⌜ 𝐒𝐀𝐕𝐀𝐆𝐄 𝐌𝐎𝐃𝐄  ⌟  ❐
-┃⭔ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
-┃⭔ Library : WS-Baileys
-┃⭔ Type : Case
-┃⭔ Status : Ready
-┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-┃⭔ User : ${Object.keys(db.data.users).length}
-┃⭔ Prefix : Single 
+┏❐  ⌜ 𝐕𝐚𝐦𝐩𝐢𝐫𝐞 𝐊𝐢𝐥𝐥𝐞𝐫  ⌟  ❐
+┃∭ Creator :  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧
+┃∭ Library : WS-Baileys
+┃∭ Type : Case
+┃∭ Status : Ready
+┃∭ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+┃∭ User : ${Object.keys(db.data.users).length}
+┃∭ Prefix : Single 
 ┗❐
  
 ┏❐   \`Owner Cmd\` 
 ┃
-┃⭔ ${prefix}Addprem 62##/TAG 30d
-┃⭔ ${prefix}Dellprem 62##/TAG 30d
-┃⭔ ${prefix}addowner 62878####
-┃⭔ ${prefix}delowner 62878####
-┃⭔ ${prefix}zero-bug 62878####
-┃⭔ ${prefix}addbadwords kata kasar
-┃⭔ ${prefix}delbadwords kata kasar
-┃⭔ ${prefix}changemenu button/non
-┃⭔ ${prefix}autoread on/off
-┃⭔ ${prefix}autotyping on/off
-┃⭔ ${prefix}autorecord on/off
-┃⭔ ${prefix}autobio on/off
-┃⭔ ${prefix}self
-┃⭔ ${prefix}public
-┃⭔ ${prefix}shutdown
-┃⭔ ${prefix}addcase 
-┃⭔ ${prefix}delcase
-┃⭔ ${prefix}join [link group]
-┃⭔ ${prefix}block [nomor]
-┃⭔ ${prefix}unblock [nomor]
-┃⭔ ${prefix}listblock
-┃⭔ ${prefix}setppbot [reply gambar]
-┃⭔ ${prefix}setbiobot [teks]
-┃⭔ ${prefix}listpc
+┃⋇ ${prefix}Addprem 62##/TAG 30d
+┃⋇ ${prefix}Dellprem 62##/TAG 30d
+┃⋇ ${prefix}addowner 62878####
+┃⋇ ${prefix}delowner 62878####
+┃⋇ ${prefix}zero-bug 62878####
+┃⋇ ${prefix}addbadwords kata kasar
+┃⋇ ${prefix}delbadwords kata kasar
+┃⋇ ${prefix}changemenu button/non
+┃⋇ ${prefix}autoread on/off
+┃⋇ ${prefix}autotyping on/off
+┃⋇ ${prefix}autorecord on/off
+┃⋇ ${prefix}autobio on/off
+┃⋇ ${prefix}self
+┃⋇ ${prefix}public
+┃⋇ ${prefix}shutdown
+┃⋇ ${prefix}addcase 
+┃⋇ ${prefix}delcase
+┃⋇ ${prefix}join [link group]
+┃⋇ ${prefix}block [nomor]
+┃⋇ ${prefix}unblock [nomor]
+┃⋇ ${prefix}listblock
+┃⋇ ${prefix}setppbot [reply gambar]
+┃⋇ ${prefix}setbiobot [teks]
+┃⋇ ${prefix}listpc
 ┃
 ┗❐
 
@@ -2102,17 +2102,17 @@ let itsmenu = `
 
 ┏❐   \`Convert\` 
 ┃
-┃⭔ ${prefix}toimg | reply stiker
-┃⭔ ${prefix}toaudio | reply video
-┃⭔ ${prefix}sticker | reply gambar
-┃⭔ ${prefix}s | reply gambar 
-┃⭔ ${prefix}smeme teks bawah|teks atas
-┃⭔ ${prefix}tomp4 (sedang eror)
-┃⭔ ${prefix}kalkulator 
-┃⭔ ${prefix}removebg | reply gambar
-┃⭔ ${prefix}wm | reply stiker
-┃⭔ ${prefix}attp teks
-┃⭔ ${prefix}styletext teks
+┃∰ ${prefix}toimg | reply stiker
+┃∰ ${prefix}toaudio | reply video
+┃∰ ${prefix}sticker | reply gambar
+┃∰ ${prefix}s | reply gambar 
+┃∰ ${prefix}smeme teks bawah|teks atas
+┃∰ ${prefix}tomp4 (sedang eror)
+┃∰ ${prefix}kalkulator 
+┃∰ ${prefix}removebg | reply gambar
+┃∰ ${prefix}wm | reply stiker
+┃∰ ${prefix}attp teks
+┃∰ ${prefix}styletext teks
 ┃
 ┗❐ 
 
@@ -2130,12 +2130,12 @@ let itsmenu = `
  
 ┏❐   \`Search\` 
 ┃
-┃⭔ ${prefix}google-article query
-┃⭔ ${prefix}google-search query
-┃⭔ ${prefix}search-kbbi query
-┃⭔ ${prefix}search-apk query
-┃⭔ ${prefix}search-resep
-┃⭔ ${prefix}search-sticker
+┃⁠⊙ ${prefix}google-article query
+┃⊙ ${prefix}google-search query
+┃⊙ ${prefix}search-kbbi query
+┃⁠⊙ ${prefix}search-apk query
+┃⊙ ${prefix}search-resep
+┃⁠⊙ ${prefix}search-sticker
 ┃
 ┗❐ 
 
@@ -2448,7 +2448,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": 'By Vampire Killer',
 "serverMessageId": 1
 },
 },
@@ -2461,13 +2461,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Vampire Killer ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"⿻Vampire⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2481,7 +2481,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ 𝐙͢Vampire ⿻ Killer 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2506,8 +2506,8 @@ let mydick = jinjing[randomIndex]
 let itsmenu = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ 𝐒𝐀𝐕𝐀𝐆𝐄 𝐌𝐎𝐃𝐄  ⌟  ❐
-┃⭔ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
+┏❐  ⌜ 𝐕𝐀𝐌𝐏𝐈𝐑𝐄 𝐊𝐈𝐋𝐋𝐄𝐑  ⌟  ❐
+┃⭔ Creator :  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧
 ┃⭔ Library : WS-Baileys
 ┃⭔ Type : Case
 ┃⭔ Status : Maintenance 
@@ -2537,33 +2537,33 @@ let itsmenu = `
 
 ┏❐  *Bug Menu*
 ┃
-┃⭔ ${prefix}sipilist 62878###
-┃⭔ ${prefix}1hit 62878###
-┃⭔ ${prefix}1shoot 62878###
-┃⭔ ${prefix}mimir 62878###
-┃⭔ ${prefix}fatal-notif 62878###
-┃⭔ ${prefix}fatal-ui 62878###
-┃⭔ ${prefix}crash-total 62878###
-┃⭔ ${prefix}forces-sql 62878###
-┃⭔ ${prefix}bug-rom 62878###
-┃⭔ ${prefix}restart-ui 62878###
-┃⭔ ${prefix}zero-bug 62878###
-┃⭔ ${prefix}bug-s 62878###
-┃⭔ ${prefix}virg4m 62878###
-┃⭔ ${prefix}bijibapakkau 62878###
-┃⭔ ${prefix}samsung-chace 62878###
-┃⭔ ${prefix}bug-button link group
-┃⭔ ${prefix}bug-browser link group
-┃⭔ ${prefix}bug-gc 120###@g.us
-┃⭔ ${prefix}penghitaman 120###@g.us
-┃⭔ ${prefix}bug-ipong 62878#|waktu
-┃⭔ ${prefix}bug-ios 62878#|waktu
+┃❁) ${prefix}sipilist 62878###
+┃❁) ${prefix}1hit 62878###
+┃❁) ${prefix}1shoot 62878###
+┃❁) ${prefix}mimir 62878###
+┃❁) ${prefix}fatal-notif 62878###
+┃❁) ${prefix}fatal-ui 62878###
+┃❁) ${prefix}crash-total 62878###
+┃❁) ${prefix}forces-sql 62878###
+┃❁) ${prefix}bug-rom 62878###
+┃❁) ${prefix}restart-ui 62878###
+┃❁) ${prefix}zero-bug 62878###
+┃❁) ${prefix}bug-s 62878###
+┃❁) ${prefix}virg4m 62878###
+┃❁) ${prefix}bijibapakkau 62878###
+┃❁) ${prefix}samsung-chace 62878###
+┃❁) ${prefix}bug-button link group
+┃❁) ${prefix}bug-browser link group
+┃❁) ${prefix}bug-gc 120###@g.us
+┃❁) ${prefix}penghitaman 120###@g.us
+┃❁) ${prefix}bug-ipong 62878#|waktu
+┃❁) ${prefix}bug-ios 62878#|waktu
 ┃⭓ #masukkan waktu 1 = 200 detik
 ┃⭓ #cek id = ketik .cekidgc
 ┃
 ┗❐
 
- ⁂𝙠𝙤𝙣𝙠𝙮⁂ © Copyright`
+ 𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 © Copyright`
 
 let msg = {
 viewOnceMessage: {
@@ -2587,13 +2587,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Vampire Killer ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"⿻Vampire⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2607,7 +2607,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ Vampire ⿻  々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2639,8 +2639,8 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-┏❐  ⌜ 𝐒𝐀𝐕𝐀𝐆𝐄 𝐌𝐎𝐃𝐄  ⌟  ❐
-┃⭔ Creator :  ⁂𝙠𝙤𝙣𝙠𝙮⁂
+┏❐  ⌜ 𝐕𝐚𝐦𝐩𝐢𝐫𝐞 𝐤𝐢𝐥𝐥𝐞𝐫   ⌟  ❐
+┃⭔ Creator :  𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 
 ┃⭔ Library : WS-Baileys
 ┃⭔ Type : Case
 ┃⭔ Status : Maintenance 
@@ -2666,10 +2666,10 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️Sc Ini Dibuat Oleh  ⁂𝙠𝙤𝙣𝙠𝙮⁂ (ryo).
+joreply(`🌤️𝙏𝙝𝙞𝙨 𝙧𝙚𝙥𝙤 𝙞𝙨 𝙤𝙣𝙡𝙮 𝙢𝙞𝙣𝙚 𝙮𝙤𝙤𝙝!/ (ryo).
 
 ❕Yt : ${global.yt}
-❗Tl : t.me/ ⁂𝙠𝙤𝙣𝙠𝙮⁂
+❗Tl : t.me/ 𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙧 
 
 `)
 }
@@ -2680,7 +2680,7 @@ let namaown = `Owner Cakep`
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
 "displayName": `${namaown}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ 𝐙.𝐱.𝐕 ⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 𝐙.𝐱.𝐕 ⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nEND:VCARD`,
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ 𝐕𝐚𝐦𝐩𝐢𝐫𝐞⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 𝐕𝐚𝐦𝐩𝐢𝐫𝐞 ⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nEND:VCARD`,
 }
 }), { userJid: m.chat, quoted: m })
 ryozingod.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -2770,10 +2770,10 @@ if (!isDeveloper) return joreply(mess.owner)
 if (args.length < 1) return joreply(`Example ${prefix + command} button/non`)
 if (q == 'button') {
 db.data.settings[botNumber].menuType = 'buttonImage'
-joreply(`Successfully Changed Menu To Button List Image`)
+joreply(`You've successfully Changed Menu To Button List Image`)
 } else if (q == 'non') {
 db.data.settings[botNumber].menuType = 'externalImage'
-joreply(`Successfully Changed Auto Typing To External Image`)
+joreply(`You've Successfully Changed Auto Typing To External Image`)
 }
 break
 //=================================================//
@@ -3297,12 +3297,12 @@ var thumbnya = `https://i.ytimg.com/vi/${res.videoId}/hqdefault.jpg`
 var thumbnya = `https://i.ytimg.com/vi/${res.videoId}/default.jpg`
 }
 let inithumb = await getBuffer(thumbnya)
-let teks = `*💢 Y O U T U B E - M P 3*
+let teks = `*💢 Vampire -Songs*
 
-🔶 Channel : ${res.author.name}
-🔶 Viewers : ${res.views} Kali
-🔶 Duration : ${res.timestamp}
-🔶 Url : ${res.url}`
+💢 Channel : ${res.author.name}
+💢 Viewers : ${res.views} Kali
+💢 Duration : ${res.timestamp}
+💢 Url : ${res.url}`
 
 ryozingod.sendMessage(m.chat, { contextInfo: { externalAdReply: { showAdAttribution: false, 
 title: `${res.title}`,
@@ -3596,7 +3596,7 @@ addPremiumUser(m.mentionedJid[0], args[1], orgkaya);
 joreply("Sukses Premium")
 } else {
 addPremiumUser(args[0] + "@s.whatsapp.net", args[1], orgkaya);
-joreply("Sukses Via Nomer")
+joreply("This user is now a premium user")
 await sleep(2000)
 ryozingod.sendMessage(args[0] + "@s.whatsapp.net", {image: {url: `https://telegra.ph/file/4591e4839848523095e05.jpg`}, caption: `Kamu sekarang adalah Anggota Premium`},{quoted: qevent })
 }
@@ -3614,7 +3614,7 @@ orgkaya.splice(mentionedPremiumIndex, 1);
 }
 }
 fs.writeFileSync("./dtbs/premium.json", JSON.stringify(orgkaya));
-joreply("Sukses Delete");
+joreply("Done");
 } else {
 let targetNumber = args[0] + "@s.whatsapp.net"
 let targetPremiumIndex = orgkaya.findIndex(premium => premium.id === targetNumber)
@@ -12625,7 +12625,7 @@ case 'bgtes': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 1`)
 for (let j = 0; j < q; j++) {
-await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: 'Zero Execution Vault', author: ' ⁂𝙠𝙤𝙣𝙠𝙮⁂' })
+await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: '𝙑𝙖𝙢𝙥𝙞𝙧𝙚 𝙆𝙞𝙡𝙡𝙚𝙧 ', author: ' 𝙂𝙞𝙙𝙙𝙮 𝙏𝙚𝙣𝙣𝙤𝙩' })
 }
 }
 break
