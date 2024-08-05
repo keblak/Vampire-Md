@@ -22,7 +22,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
 .[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tennormodz/Vampire-Md?tab=readme-ov-file)
-# Install Manually 👇
+𝐇𝐞𝐫𝐨𝐤𝐮 𝐮𝐬𝐞𝐫𝐬 ,,𝐫𝐮𝐧 𝐲𝐨𝐮𝐫 𝐫𝐞𝐩𝐥𝐢𝐭 𝐚𝐧𝐝 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐂𝐫𝐞𝐝.𝐣𝐬𝐨𝐧 𝐟𝐢𝐥𝐞 𝐜𝐨𝐩𝐲 𝐭𝐡𝐞 𝐜𝐨𝐧𝐭𝐞𝐧𝐭𝐬 𝐢𝐧𝐬𝐢𝐝𝐞 𝐢𝐭 𝐭𝐡𝐞𝐧 𝐩𝐚𝐬𝐭𝐞 𝐭𝐡𝐞𝐦 𝐢𝐧 𝐭𝐡𝐞 𝐕𝐚𝐦𝐩𝐢𝐫𝐞 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐚𝐫𝐞𝐟𝐮𝐥𝐲 ,,,𝐦𝐚𝐤𝐞 𝐬𝐮𝐫𝐞 𝐭𝐡𝐞 𝐜𝐨𝐧𝐭𝐞𝐧𝐭𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐯𝐚𝐦𝐩𝐢𝐫𝐞'𝐬 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐂𝐫𝐞𝐝.𝐣𝐬𝐨𝐧 𝐚𝐫𝐞 𝐟𝐫𝐞𝐞 𝐛𝐞𝐟𝐨𝐫𝐞 𝐩𝐚𝐬𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐧𝐞𝐰 𝐨𝐧𝐞# Install Manually 👇
 ## `Requirements`
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
