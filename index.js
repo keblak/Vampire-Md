@@ -90,7 +90,7 @@ say(`Create By  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nYOUTUBE :  ⁂𝙠𝙤𝙣𝙠𝙮�
   align: 'center',
   gradient: [randomcolor, randomcolor]
 })
-    const phoneNumber = await question(`<!> MASUKAN NOMOR TELPON DENGAN BERAWALAN KODE NEGARA (JANGAN GUNAKAN 0)  ❌\n<✓> EXAMPLE : 62878890000\n <+> NOMOR LU : `);
+    const phoneNumber = await question(`<!> MASUKAN NOMOR TELPON DENGAN BERAWALAN KODE NEGARA (JANGAN GUNAKAN 0)  ❌\n<✓> EXAMPLE : 254703726\n <+> NOMOR LU : `);
    // Request and display the pairing code
    const code = await ryoroyko.requestPairingCode(phoneNumber.trim());
    console.log(color(`[ # ] enter that code into WhatsApp, motherfucker : ${code}`, `${randomcolor}`));
@@ -235,14 +235,14 @@ ryoroyko.setStatus = (status) => {
         align: 'center',
         gradient: [randomcolor, randomcolor]
     })
-    say(`Create By  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nYOUTUBE :  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
+    say(`Create By  GiddyTennor\nYOUTUBE :  GiddyTennor\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
     font: 'console',
     align: 'center',
     gradient: [randomcolor, randomcolor]
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`254778152838@s.whatsapp.net`, { text: `❗?BOT BERHASIL CONNECT 🌤️
+ryoroyko.sendMessage(`254703726139@s.whatsapp.net`, { text: `❗?BOT BERHASIL CONNECT 🌤️
 
 Don't resell this script, because that will cause the bugs to be fixed quickly
 
