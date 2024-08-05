@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/6df8affbde800234b9436.jpg" width="360" height="360"/>## ```Connect With Me```
+<img src="https://telegra.ph/file/6df8affbde800234b9436.jpg" width="360" height="360"/>## ```<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +VAMPIRE-MD; WHATSAPP+BUG+BOT;CREATED+BY+GIDDY+TENNOR;RELEASED+22.2.2024" alt="Typing SVG" /></a>Connect With Me```
 <p align="center">
 <a href="https://youtube.com/@gideonowino-gc2ry?si=EF9V0pNRVRya_hjM"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@DGXeon" /><br>
 <a href="https://whatsapp.com/channel/0029VadqmtNA89MlYOW7Ep2n"><img src="https://img.shields.io/badge/WhatsApp Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=[https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20](https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R)" /><br>
